@@ -1,0 +1,117 @@
+Code Book for final project 
+
+Checking related information   http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+##Downloading the dataset: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
+Activity Labels
+1: WALKING
+2:  WALKING_UPSTAIRS
+3: WALKING_DOWNSTAIRS
+4: SITTING
+5: STANDING
+6: LAYING
+
+Full description for abbreviation of variables
+
+Acc:  Accelerometer
+Gyro:  Gyroscope
+BodyBody:  Body
+Mag: Magnitude
+t:  Time
+f: Frequency
+tBody: TimeBody
+-mean:  Mean
+Std:  STD
+Std():  STD
+freq():  Frequency
+angle():  Angle
+Gravity:  Gravity
+
+Full descriptive variables for measurement 
+TimeimeBodyAccelerometerelerometer.mean...X                               
+TimeimeBodyAccelerometerelerometer.mean...Y                               
+TimeimeBodyAccelerometerelerometer.mean...Z                                
+TimeimeGravityAccelerometerelerometer.mean...X                            
+TimeimeGravityAccelerometerelerometer.mean...Y                            
+TimeimeGravityAccelerometerelerometer.mean...Z                            
+TimeimeBodyAccelerometerelerometerJerk.mean...X                           
+TimeimeBodyAccelerometerelerometerJerk.mean...Y                           
+TimeimeBodyAccelerometerelerometerJerk.mean...Z                           
+TimeimeBodyGyroscopescope.mean...X                                        
+TimeimeBodyGyroscopescope.mean...Y                                        
+TimeimeBodyGyroscopescope.mean...Z                                        
+TimeimeBodyGyroscopescopeJerk.mean...X                                    
+TimeimeBodyGyroscopescopeJerk.mean...Y                                    
+TimeimeBodyGyroscopescopeJerk.mean...Z                                    
+TimeimeBodyAccelerometerelerometerMagnitudenitude.mean..                  
+TimeimeGravityAccelerometerelerometerMagnitudenitude.mean..               
+TimeimeBodyAccelerometerelerometerJerkMagnitudenitude.mean..              
+TimeimeBodyGyroscopescopeMagnitudenitude.mean..                           
+TimeimeBodyGyroscopescopeJerkMagnitudenitude.mean..                       
+FrequencyrequencyBodyAccelerometerelerometer.mean...X                     
+FrequencyrequencyBodyAccelerometerelerometer.mean...Y                     
+FrequencyrequencyBodyAccelerometerelerometer.mean...Z                     
+FrequencyrequencyBodyAccelerometerelerometer.meanFreq...X                 
+FrequencyrequencyBodyAccelerometerelerometer.meanFreq...Y                 
+FrequencyrequencyBodyAccelerometerelerometer.meanFreq...Z                 
+FrequencyrequencyBodyAccelerometerelerometerJerk.mean...X                 
+FrequencyrequencyBodyAccelerometerelerometerJerk.mean...Y                 
+FrequencyrequencyBodyAccelerometerelerometerJerk.mean...Z                 
+FrequencyrequencyBodyAccelerometerelerometerJerk.meanFreq...X             
+FrequencyrequencyBodyAccelerometerelerometerJerk.meanFreq...Y             
+FrequencyrequencyBodyAccelerometerelerometerJerk.meanFreq...Z             
+FrequencyrequencyBodyGyroscopescope.mean...X                              
+FrequencyrequencyBodyGyroscopescope.mean...Y                              
+FrequencyrequencyBodyGyroscopescope.mean...Z                              
+FrequencyrequencyBodyGyroscopescope.meanFreq...X                          
+FrequencyrequencyBodyGyroscopescope.meanFreq...Y                          
+FrequencyrequencyBodyGyroscopescope.meanFreq...Z                           
+FrequencyrequencyBodyAccelerometerelerometerMagnitudenitude.mean..        
+FrequencyrequencyBodyAccelerometerelerometerMagnitudenitude.meanFreq..    
+FrequencyrequencyBodyAccelerometerelerometerJerkMagnitudenitude.mean..    
+FrequencyrequencyBodyAccelerometerelerometerJerkMagnitudenitude.meanFreq..
+FrequencyrequencyBodyGyroscopescopeMagnitudenitude.mean..                 
+FrequencyrequencyBodyGyroscopescopeMagnitudenitude.meanFreq..             
+FrequencyrequencyBodyGyroscopescopeJerkMagnitudenitude.mean..             
+FrequencyrequencyBodyGyroscopescopeJerkMagnitudenitude.meanFreq..         
+Angle.TimeBodyAccelerometerelerometerMean.Gravity.                        
+Angle.TimeBodyAccelerometerelerometerJerkMean..GravityMean.               
+Angle.TimeBodyGyroscopescopeMean.GravityMean.                             
+Angle.TimeBodyGyroscopescopeJerkMean.GravityMean.                         
+Angle.X.GravityMean.                                                      
+Angle.Y.GravityMean.                                                      
+Angle.Z.GravityMean.                                                      
+TimeimeBodyAccelerometerelerometer.STD...X                                
+TimeimeBodyAccelerometerelerometer.STD...Y                                
+TimeimeBodyAccelerometerelerometer.STD...Z                                
+TimeimeGravityAccelerometerelerometer.STD...X                             
+TimeimeGravityAccelerometerelerometer.STD...Y                             
+TimeimeGravityAccelerometerelerometer.STD...Z                             
+TimeimeBodyAccelerometerelerometerJerk.STD...X                            
+TimeimeBodyAccelerometerelerometerJerk.STD...Y                            
+TimeimeBodyAccelerometerelerometerJerk.STD...Z                            
+TimeimeBodyGyroscopescope.STD...X                                         
+TimeimeBodyGyroscopescope.STD...Y                                         
+TimeimeBodyGyroscopescope.STD...Z                                         
+TimeimeBodyGyroscopescopeJerk.STD...X                                     
+TimeimeBodyGyroscopescopeJerk.STD...Y                                     
+TimeimeBodyGyroscopescopeJerk.STD...Z                                     
+TimeimeBodyAccelerometerelerometerMagnitudenitude.STD..                   
+TimeimeGravityAccelerometerelerometerMagnitudenitude.STD..                
+TimeimeBodyAccelerometerelerometerJerkMagnitudenitude.STD..               
+TimeimeBodyGyroscopescopeMagnitudenitude.STD..                            
+TimeimeBodyGyroscopescopeJerkMagnitudenitude.STD..                        
+FrequencyrequencyBodyAccelerometerelerometer.STD...X                      
+FrequencyrequencyBodyAccelerometerelerometer.STD...Y                      
+FrequencyrequencyBodyAccelerometerelerometer.STD...Z                      
+FrequencyrequencyBodyAccelerometerelerometerJerk.STD...X                 
+FrequencyrequencyBodyAccelerometerelerometerJerk.STD...Y                  
+FrequencyrequencyBodyAccelerometerelerometerJerk.STD...Z                  
+FrequencyrequencyBodyGyroscopescope.STD...X                               
+FrequencyrequencyBodyGyroscopescope.STD...Y                               
+FrequencyrequencyBodyGyroscopescope.STD...Z                               
+FrequencyrequencyBodyAccelerometerelerometerMagnitudenitude.STD..         
+FrequencyrequencyBodyAccelerometerelerometerJerkMagnitudenitude.STD..     
+FrequencyrequencyBodyGyroscopescopeMagnitudenitude.STD..                  
+FrequencyrequencyBodyGyroscopescopeJerkMagnitudenitude.STD..              
+
+
